@@ -14,4 +14,3 @@ use Illuminate\Http\Request;
 */
 
 Route::get('/user','api\UserController@listUsers');
-Route::delete('/user/{id}',controller);
